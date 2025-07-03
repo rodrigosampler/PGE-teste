@@ -1,13 +1,13 @@
 {
   "users": [
     {
-      "email": "rodrigoufcquixada@gmail.com",
+      "email": "admin@gmail.com",
       "password": "$2a$10$0oR4TjlRnOvvsYaDwBOnueu3nTMv40SoPJ9aJI7NrDKdfypUbHVT6",
       "role": "admin",
       "id": 1
     },
     {
-      "email": "teste1@gmail.com",
+      "email": "user@gmail.com",
       "password": "$2a$10$X61rVPaXlKTndjexwaaOMOf6Fxayn19WdI7t5Ri8Fsg0xEdXlclpO",
       "role": "user",
       "id": 2
