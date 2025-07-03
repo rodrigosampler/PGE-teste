@@ -1,0 +1,414 @@
+{
+  "users": [
+    {
+      "email": "rodrigoufcquixada@gmail.com",
+      "password": "$2a$10$0oR4TjlRnOvvsYaDwBOnueu3nTMv40SoPJ9aJI7NrDKdfypUbHVT6",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "teste1@gmail.com",
+      "password": "$2a$10$X61rVPaXlKTndjexwaaOMOf6Fxayn19WdI7t5Ri8Fsg0xEdXlclpO",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "clients": [
+    {
+      "name": "Cliente 2 update 6",
+      "email": "cliente2@example.com",
+      "cpf": "739.759.410-73",
+      "birthDate": "1991-02-02T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "whatsapp",
+          "number": "(85) 9875-2222"
+        },
+        {
+          "type": "residencial",
+          "number": "85323-91962"
+        }
+      ],
+      "country": "BR",
+      "state": "São Paulo",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Cliente 3",
+      "email": "cliente3@example.com",
+      "cpf": null,
+      "birthDate": "1985-03-03T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "residencial",
+          "number": "(85) 9875-3333"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 4,
+      "name": "Cliente 4",
+      "email": "cliente4@example.com",
+      "cpf": "345.678.901-22",
+      "birthDate": "1988-04-04T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-4444"
+        },
+        {
+          "type": "whatsapp",
+          "number": "(85) 9888-4444"
+        }
+      ],
+      "country": "BR",
+      "state": "Rio de Janeiro"
+    },
+    {
+      "id": 5,
+      "name": "Cliente 5",
+      "email": "cliente5@example.com",
+      "cpf": null,
+      "birthDate": "1995-05-05T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-5555"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 6,
+      "name": "Cliente 6",
+      "email": "cliente6@example.com",
+      "cpf": "456.789.012-33",
+      "birthDate": "1992-06-06T03:00:00.000Z",
+      "contacts": [],
+      "country": "BR",
+      "state": "Bahia"
+    },
+    {
+      "id": 7,
+      "name": "Cliente 7",
+      "email": "cliente7@example.com",
+      "cpf": "567.890.123-44",
+      "birthDate": "1993-07-07T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "whatsapp",
+          "number": "(85) 9875-7777"
+        }
+      ],
+      "country": "BR",
+      "state": "Paraná"
+    },
+    {
+      "id": 8,
+      "name": "Cliente 8",
+      "email": "cliente8@example.com",
+      "cpf": null,
+      "birthDate": "1989-08-08T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-8888"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 9,
+      "name": "Cliente 9",
+      "email": "cliente9@example.com",
+      "cpf": "678.901.234-55",
+      "birthDate": "1994-09-09T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "residencial",
+          "number": "(85) 9875-9999"
+        }
+      ],
+      "country": "BR",
+      "state": "Rio Grande do Sul"
+    },
+    {
+      "id": 10,
+      "name": "Cliente 10",
+      "email": "cliente10@example.com",
+      "cpf": null,
+      "birthDate": "1996-10-10T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "whatsapp",
+          "number": "(85) 9875-1010"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 11,
+      "name": "Cliente 11",
+      "email": "cliente11@example.com",
+      "cpf": "789.012.345-66",
+      "birthDate": "1992-11-11T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-1111"
+        }
+      ],
+      "country": "BR",
+      "state": "Pernambuco"
+    },
+    {
+      "id": 12,
+      "name": "Cliente 12",
+      "email": "cliente12@example.com",
+      "cpf": null,
+      "birthDate": "1987-12-12T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "residencial",
+          "number": "(85) 9875-1212"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 13,
+      "name": "Cliente 13",
+      "email": "cliente13@example.com",
+      "cpf": "890.123.456-77",
+      "birthDate": "1991-01-13T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "whatsapp",
+          "number": "(85) 9875-1313"
+        }
+      ],
+      "country": "BR",
+      "state": "Minas Gerais"
+    },
+    {
+      "id": 14,
+      "name": "Cliente 14",
+      "email": "cliente14@example.com",
+      "cpf": "901.234.567-88",
+      "birthDate": "1993-02-14T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-1414"
+        },
+        {
+          "type": "whatsapp",
+          "number": "(85) 9888-1414"
+        }
+      ],
+      "country": "BR",
+      "state": "Pará"
+    },
+    {
+      "id": 15,
+      "name": "Cliente 15",
+      "email": "cliente15@example.com",
+      "cpf": null,
+      "birthDate": "1985-03-15T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "residencial",
+          "number": "(85) 9875-1515"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 16,
+      "name": "Cliente 16",
+      "email": "cliente16@example.com",
+      "cpf": "012.345.678-99",
+      "birthDate": "1994-04-16T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-1616"
+        }
+      ],
+      "country": "BR",
+      "state": "Amazonas"
+    },
+    {
+      "id": 17,
+      "name": "Cliente 17",
+      "email": "cliente17@example.com",
+      "cpf": null,
+      "birthDate": "1989-05-17T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "whatsapp",
+          "number": "(85) 9875-1717"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 18,
+      "name": "Cliente 18",
+      "email": "cliente18@example.com",
+      "cpf": "123.456.789-00",
+      "birthDate": "1995-06-18T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-1818"
+        }
+      ],
+      "country": "BR",
+      "state": "Distrito Federal"
+    },
+    {
+      "id": 19,
+      "name": "Cliente 19",
+      "email": "cliente19@example.com",
+      "cpf": null,
+      "birthDate": "1996-07-19T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "residencial",
+          "number": "(85) 9875-1919"
+        }
+      ],
+      "country": "AF",
+      "state": null
+    },
+    {
+      "id": 20,
+      "name": "Cliente 20",
+      "email": "cliente20@example.com",
+      "cpf": "234.567.890-11",
+      "birthDate": "1990-08-20T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "whatsapp",
+          "number": "(85) 9875-2020"
+        }
+      ],
+      "country": "BR",
+      "state": "Santa Catarina"
+    },
+    {
+      "name": "Cliente 000",
+      "email": "cliente2@example.com",
+      "cpf": "739.759.410-73",
+      "birthDate": "2025-07-02T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "85999-99999"
+        }
+      ],
+      "country": "BR",
+      "state": "São Paulo",
+      "id": 21
+    },
+    {
+      "name": "Cliente 001",
+      "email": "cliente2@example.com",
+      "cpf": "739.759.410-73",
+      "birthDate": "2025-07-01T03:00:00.000Z",
+      "contacts": [],
+      "country": "BR",
+      "state": "São Paulo",
+      "id": 22
+    },
+    {
+      "name": "aaaaa",
+      "email": "rodrigoufcquixada@gmail.com",
+      "cpf": null,
+      "birthDate": "2025-07-01T03:00:00.000Z",
+      "contacts": [],
+      "country": "AF",
+      "state": null,
+      "id": 23
+    },
+    {
+      "name": "aaaaa",
+      "email": "rodrigoufcquixada@gmail.com",
+      "cpf": null,
+      "birthDate": "2025-07-01T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "+55 (85) 9875-71773"
+        }
+      ],
+      "country": "AF",
+      "state": null,
+      "id": 24
+    },
+    {
+      "name": "rodrigo",
+      "email": "rodrigoufcquixada@gmail.com",
+      "cpf": null,
+      "birthDate": "2025-07-01T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "+55 (85) 9875-71773"
+        },
+        {
+          "type": "whatsapp",
+          "number": "+55 (85) 98757-1773"
+        },
+        {
+          "type": "residencial",
+          "number": "+55 (85) 98757-1773"
+        }
+      ],
+      "country": "BA",
+      "state": null,
+      "id": 25
+    },
+    {
+      "name": "aaaaa",
+      "email": "rodrigoufcquixada@gmail.com",
+      "cpf": null,
+      "birthDate": "2025-07-02T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-71773"
+        }
+      ],
+      "country": "AF",
+      "state": null,
+      "id": 26
+    },
+    {
+      "name": "uuuu",
+      "email": "rodrigoufcquixada@gmail.com",
+      "cpf": "921.296.140-19",
+      "birthDate": "2025-07-01T03:00:00.000Z",
+      "contacts": [
+        {
+          "type": "celular",
+          "number": "(85) 9875-71773"
+        }
+      ],
+      "country": "BR",
+      "state": "Acre",
+      "id": 27
+    }
+  ],
+  "errorlog": []
+}

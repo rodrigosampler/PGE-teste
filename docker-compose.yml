@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+
+  angular-ssr:
+    build: .
+    container_name: angular_ssr_app
+    ports:
+      - "4000:4000"
+    depends_on:
+      - mock-server
+    networks:
+      - app-network
+
+  mock-server:
+    build:
+      context: ./mock-server
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,13 @@
+{
+  "name": "json-server-auth-docker",
+  "version": "1.0.0",
+  "description": "JSON Server with Auth in Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js --host=0.0.0.0 "
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  }
+}

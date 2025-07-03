@@ -1,0 +1,28 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="login-form p-fluid p-formgrid p-grid">
+  <div class="logo-container">
+    <img src="logo.png" alt="Logo" height="40">
+  </div>
+  <div class="p-field p-col-12">
+    <label for="email">Email</label>
+    <input pInputText  id="email" type="email" formControlName="email" placeholder="Digite seu email" />
+    <small class="form-error" *ngIf="form.get('email')?.invalid && form.get('email')?.touched">
+      Email inválido.
+    </small>
+  </div>
+
+  <div class="p-field p-col-12 mt-2">
+    <label for="password">Senha</label>
+    <input pPassword id="password" type="password" formControlName="password" [feedback]="false" placeholder="Digite sua senha" />
+    <small class="form-error" *ngIf="form.get('password')?.invalid && form.get('password')?.touched">
+      Senha é obrigatória.
+    </small>
+  </div>
+
+  <div class="col-md-12">
+    <button pButton type="submit" label="Entrar" [disabled]="form.invalid" class="p-button-primary"></button>
+  </div>
+
+  <div class="p-col-12">
+    <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+  </div>
+</form>

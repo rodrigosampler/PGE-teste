@@ -1,0 +1,8 @@
+<app-header></app-header>
+<div class="global-loading-overlay" *ngIf="loadingservice.loading$ | async">
+  <p-progressSpinner></p-progressSpinner>
+</div>
+<p-toast></p-toast>
+<main class="content">
+  <router-outlet></router-outlet>
+</main>
